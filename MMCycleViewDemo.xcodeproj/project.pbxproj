@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FACE68C7BAE7553F06B7973 /* Pods_MMCycleViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D292D0722A59E843F92F938 /* Pods_MMCycleViewDemo.framework */; };
 		C2B7D6071F9ED3ED00C7D14A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B7D6061F9ED3ED00C7D14A /* AppDelegate.swift */; };
 		C2B7D6091F9ED3ED00C7D14A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B7D6081F9ED3ED00C7D14A /* ViewController.swift */; };
 		C2B7D60C1F9ED3ED00C7D14A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B7D60A1F9ED3ED00C7D14A /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		C2B7D6111F9ED3ED00C7D14A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B7D60F1F9ED3ED00C7D14A /* LaunchScreen.storyboard */; };
 		C2B7D61C1F9ED3ED00C7D14A /* MMCycleViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B7D61B1F9ED3ED00C7D14A /* MMCycleViewDemoTests.swift */; };
 		C2B7D6271F9ED3ED00C7D14A /* MMCycleViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B7D6261F9ED3ED00C7D14A /* MMCycleViewDemoUITests.swift */; };
+		C2B7D6391F9ED40900C7D14A /* MMCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B7D6351F9ED40900C7D14A /* MMCycleCell.swift */; };
+		C2B7D63A1F9ED40900C7D14A /* MMCycleViewCate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B7D6361F9ED40900C7D14A /* MMCycleViewCate.swift */; };
+		C2B7D63B1F9ED40900C7D14A /* MMCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B7D6371F9ED40900C7D14A /* MMCycleView.swift */; };
+		C2B7D63C1F9ED40900C7D14A /* MMPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B7D6381F9ED40900C7D14A /* MMPageControl.swift */; };
+		C2B7D63E1F9EE3F300C7D14A /* MMCycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B7D63D1F9EE3F300C7D14A /* MMCycleModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D292D0722A59E843F92F938 /* Pods_MMCycleViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMCycleViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A539B8052D6023F9BDE01F3A /* Pods-MMCycleViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMCycleViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMCycleViewDemo/Pods-MMCycleViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C2B7D6031F9ED3ED00C7D14A /* MMCycleViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMCycleViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B7D6061F9ED3ED00C7D14A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2B7D6081F9ED3ED00C7D14A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		C2B7D6221F9ED3ED00C7D14A /* MMCycleViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMCycleViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B7D6261F9ED3ED00C7D14A /* MMCycleViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMCycleViewDemoUITests.swift; sourceTree = "<group>"; };
 		C2B7D6281F9ED3ED00C7D14A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2B7D6351F9ED40900C7D14A /* MMCycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMCycleCell.swift; sourceTree = "<group>"; };
+		C2B7D6361F9ED40900C7D14A /* MMCycleViewCate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMCycleViewCate.swift; sourceTree = "<group>"; };
+		C2B7D6371F9ED40900C7D14A /* MMCycleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMCycleView.swift; sourceTree = "<group>"; };
+		C2B7D6381F9ED40900C7D14A /* MMPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMPageControl.swift; sourceTree = "<group>"; };
+		C2B7D63D1F9EE3F300C7D14A /* MMCycleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMCycleModel.swift; sourceTree = "<group>"; };
+		DC6380A788632DADAB8CAFF1 /* Pods-MMCycleViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMCycleViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMCycleViewDemo/Pods-MMCycleViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FACE68C7BAE7553F06B7973 /* Pods_MMCycleViewDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F40D58AE11725F234EBEE2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D292D0722A59E843F92F938 /* Pods_MMCycleViewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8898AE07FCB61A3622FD5EC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A539B8052D6023F9BDE01F3A /* Pods-MMCycleViewDemo.debug.xcconfig */,
+				DC6380A788632DADAB8CAFF1 /* Pods-MMCycleViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C2B7D5FA1F9ED3ED00C7D14A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +113,8 @@
 				C2B7D61A1F9ED3ED00C7D14A /* MMCycleViewDemoTests */,
 				C2B7D6251F9ED3ED00C7D14A /* MMCycleViewDemoUITests */,
 				C2B7D6041F9ED3ED00C7D14A /* Products */,
+				8898AE07FCB61A3622FD5EC6 /* Pods */,
+				2F40D58AE11725F234EBEE2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +131,7 @@
 		C2B7D6051F9ED3ED00C7D14A /* MMCycleViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C2B7D6341F9ED40900C7D14A /* MMCycleView */,
 				C2B7D6061F9ED3ED00C7D14A /* AppDelegate.swift */,
 				C2B7D6081F9ED3ED00C7D14A /* ViewController.swift */,
 				C2B7D60A1F9ED3ED00C7D14A /* Main.storyboard */,
@@ -125,6 +160,18 @@
 			path = MMCycleViewDemoUITests;
 			sourceTree = "<group>";
 		};
+		C2B7D6341F9ED40900C7D14A /* MMCycleView */ = {
+			isa = PBXGroup;
+			children = (
+				C2B7D6351F9ED40900C7D14A /* MMCycleCell.swift */,
+				C2B7D6361F9ED40900C7D14A /* MMCycleViewCate.swift */,
+				C2B7D6371F9ED40900C7D14A /* MMCycleView.swift */,
+				C2B7D6381F9ED40900C7D14A /* MMPageControl.swift */,
+				C2B7D63D1F9EE3F300C7D14A /* MMCycleModel.swift */,
+			);
+			path = MMCycleView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2B7D62B1F9ED3ED00C7D14A /* Build configuration list for PBXNativeTarget "MMCycleViewDemo" */;
 			buildPhases = (
+				6D248C8ACB76835224F77160 /* [CP] Check Pods Manifest.lock */,
 				C2B7D5FF1F9ED3ED00C7D14A /* Sources */,
 				C2B7D6001F9ED3ED00C7D14A /* Frameworks */,
 				C2B7D6011F9ED3ED00C7D14A /* Resources */,
+				BBA615A56F6F0E425BAFD8A3 /* [CP] Embed Pods Frameworks */,
+				AAFFAB0798F5AE9007747838 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +304,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D248C8ACB76835224F77160 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AAFFAB0798F5AE9007747838 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMCycleViewDemo/Pods-MMCycleViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBA615A56F6F0E425BAFD8A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMCycleViewDemo/Pods-MMCycleViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2B7D5FF1F9ED3ED00C7D14A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C2B7D6091F9ED3ED00C7D14A /* ViewController.swift in Sources */,
+				C2B7D63B1F9ED40900C7D14A /* MMCycleView.swift in Sources */,
+				C2B7D63C1F9ED40900C7D14A /* MMPageControl.swift in Sources */,
+				C2B7D63A1F9ED40900C7D14A /* MMCycleViewCate.swift in Sources */,
+				C2B7D6391F9ED40900C7D14A /* MMCycleCell.swift in Sources */,
 				C2B7D6071F9ED3ED00C7D14A /* AppDelegate.swift in Sources */,
+				C2B7D63E1F9EE3F300C7D14A /* MMCycleModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +527,7 @@
 		};
 		C2B7D62C1F9ED3ED00C7D14A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A539B8052D6023F9BDE01F3A /* Pods-MMCycleViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +543,7 @@
 		};
 		C2B7D62D1F9ED3ED00C7D14A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC6380A788632DADAB8CAFF1 /* Pods-MMCycleViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
